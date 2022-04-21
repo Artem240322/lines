@@ -23,6 +23,14 @@ public class Main {
         } else {
             System.out.println("Неудача");
         }
+
+        // ДЗ Задача 1
+
+        String firstName = "Ivan ";
+        String middleName = "Ivanovich ";
+        String lostName = "Ivanov ";
+        String fullName = lostName + firstName + middleName;
+        System.out.println(fullName);
     }
 
 
