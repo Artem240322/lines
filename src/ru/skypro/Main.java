@@ -38,10 +38,10 @@ public class Main {
         System.out.println("Данные ФИО сотрудника для заполнения сотрудника - " + fullNameUp);
 
         /// Задача 3
-
+        fullName = "Иванов Семен Семенович ";
+        String fullNameReplase = fullName.replace('ё', 'е');
+        System.out.println("Данные ФИО сотрудника " + fullNameReplase);
 
     }
 
-
     }
-
