@@ -31,6 +31,15 @@ public class Main {
         String lostName = "Ivanov ";
         String fullName = lostName + firstName + middleName;
         System.out.println(fullName);
+
+        // Задача 2
+
+        String fullNameUp = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения сотрудника - " + fullNameUp);
+
+        /// Задача 3
+
+
     }
 
 
